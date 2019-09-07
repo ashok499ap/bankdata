@@ -1,0 +1,38 @@
+{
+"first_name":[
+    {
+      "type":"required",
+      "message":"First Name is required"
+    }
+],
+"last_name":[
+    {
+      "type":"required",
+      "message":"Last Name is required"
+    }
+],
+"mobile_number":[
+    {
+      "type":"required",
+      "message":"Mobile Number is required"
+    }
+],
+"email":[
+    {
+      "type":"required",
+      "message":"Email is required"
+    }
+],
+"password":[
+    {
+      "type":"required",
+      "message":"Password is required"
+    }
+],
+"confirm_password":[
+    {
+      "type":"required",
+      "message":"Confirm Password is required"
+    }
+]
+}

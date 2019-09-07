@@ -1,0 +1,40 @@
+<!-- <div class="container">
+    <h1 align="center">Signup Form</h1>
+    <form [formGroup]="signupForm">
+        <p *ngIf="signupForm" style="color:red;padding-left: 2%;"></p>
+        <div class="form-group"
+            [ngClass]="{'has.error' : signupForm.get('first_name').errors && (signupForm.get('first_name').touched || signupForm.get('first_name').dirty)}">
+            <label>First Name</label>
+            <input type="text" class="form-control" formControlName="first_name">
+            <span
+                *ngIf="signupForm.get('first_name').errors && (signupForm.get('first_name').touched || signupForm.get('first_name').dirty)">
+                <span *ngIf="signupForm.get('first_name').errors.required">
+                    First Name is required
+                </span>
+            </span>
+        </div>
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" class="form-control" formControlName="last_name">
+        </div>
+        <div class="form-group">
+            <label>Mobile Number</label>
+            <input type="text" class="form-control" formControlName="mobile_number">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" formControlName="email">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="text" class="form-control" formControlName="password">
+        </div>
+        <div class="form-group">
+            <label>Confirm Password</label>
+            <input type="text" class="form-control" formControlName="confirm_password">
+        </div>
+        <div style="text-align: center; margin-top: 30px">
+            <button type="submit" class="btn btn-success" (click)="signup(signupForm.value)">Sign Up</button>
+        </div>
+    </form>
+</div> -->
