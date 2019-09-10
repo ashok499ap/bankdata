@@ -27,6 +27,8 @@
     "core-js": "^2.5.4",
     "fireauth": "^1.0.4",
     "firebase": "^6.2.4",
+    "heroku": "^7.29.0",
+    "heroku-cli": "^7.0.9",
     "jquery": "^3.4.1",
     "rxjs": "~6.3.3",
     "rxjs-compat": "^6.5.2",
