@@ -31,7 +31,7 @@
     "firebase": "^6.2.4",
     "heroku": "^7.29.0",
     "heroku-cli": "^7.0.9",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "rxjs-compat": "^6.5.2",
